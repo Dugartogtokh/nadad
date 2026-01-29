@@ -24,7 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="mn">
-      <body className={`${inter.variable} font-sans antialiased bg-gray-50`}>
+      <body className={`${inter.variable} font-sans antialiased bg-gray-50`} suppressHydrationWarning>
         <CartProvider>
           <WishlistProvider>
             <div className="flex flex-col min-h-screen">
